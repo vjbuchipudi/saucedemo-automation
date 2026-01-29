@@ -1,0 +1,7 @@
+pages\BasePage.class
+pages\ProductsPage.class
+pages\LoginPage.class
+pages\CartPage.class
+pages\CheckoutPage.class
+stepdefinitions\ShoppingSteps.class
+runners\TestRunner.class
