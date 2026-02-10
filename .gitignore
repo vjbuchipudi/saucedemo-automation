@@ -1,0 +1,5 @@
+target/cucumber-reports/cucumber.json
+target/cucumber-reports/cucumber.html
+target/surefire-reports/runners.TestRunner.txt
+target/surefire-reports/TEST-runners.TestRunner.xml
+target/maven-archiver/pom.properties
