@@ -3,3 +3,9 @@ target/cucumber-reports/cucumber.html
 target/surefire-reports/runners.TestRunner.txt
 target/surefire-reports/TEST-runners.TestRunner.xml
 target/maven-archiver/pom.properties
+target/surefire-reports/TEST-runners.TestRunner.xml
+target/surefire-reports/runners.TestRunner.txt
+target/cucumber-reports/cucumber.xml
+target/cucumber-reports/cucumber.json
+target/cucumber-reports/cucumber.html
+target/saucedemo-automation-1.0-SNAPSHOT.jar

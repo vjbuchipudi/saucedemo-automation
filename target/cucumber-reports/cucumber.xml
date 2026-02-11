@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="35.147" tests="4" skipped="0" failures="0" errors="0">
-<testcase classname="SauceDemo Shopping Cart" name="Successfully login and add t-shirt to cart" time="14.443">
+<testsuite name="Cucumber" time="15.776" tests="4" skipped="0" failures="0" errors="0">
+<testcase classname="SauceDemo Shopping Cart" name="Successfully login and add t-shirt to cart" time="5.073">
 <system-out><![CDATA[
 Given I navigate to the SauceDemo website...................................passed
 When I login with username "standard_user" and password "secret_sauce"......passed
@@ -9,7 +9,7 @@ When I add "Sauce Labs Bolt T-Shirt" to the cart............................pass
 Then the cart should show 1 item............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="SauceDemo Shopping Cart" name="Verify multiple products are displayed after login" time="6.488">
+<testcase classname="SauceDemo Shopping Cart" name="Verify multiple products are displayed after login" time="3.352">
 <system-out><![CDATA[
 Given I navigate to the SauceDemo website...................................passed
 When I login with username "standard_user" and password "secret_sauce"......passed
@@ -17,14 +17,14 @@ Then I should see the Products page.........................................pass
 And I should see 6 products displayed.......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="SauceDemo Shopping Cart" name="Login with invalid credentials" time="3.887">
+<testcase classname="SauceDemo Shopping Cart" name="Login with invalid credentials" time="2.878">
 <system-out><![CDATA[
 Given I navigate to the SauceDemo website...................................passed
 When I login with username "invalid_user" and password "wrong_password".....passed
 Then I should see an error message..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="SauceDemo Shopping Cart" name="Successfully checkout with multiple items" time="9.979">
+<testcase classname="SauceDemo Shopping Cart" name="Successfully checkout with multiple items" time="4.193">
 <system-out><![CDATA[
 Given I navigate to the SauceDemo website...................................passed
 When I login with username "standard_user" and password "secret_sauce"......passed
